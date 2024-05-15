@@ -1,0 +1,23 @@
+@media (max-width: 576px) { /* Mobile devices */
+    body {
+        padding-top: 0px; /* Adjust for smaller screens */
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) { /* Tablets */
+    body {
+        padding-top: 0px; /* Adjust for tablet screens */
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { /* Laptops */
+    body {
+        padding-top: 0px; /* Adjust for laptop screens */
+    }
+}
+
+@media (min-width: 1201px) { /* Large screens */
+    body {
+        padding-top: 0px; /* Adjust for larger screens */
+    }
+}

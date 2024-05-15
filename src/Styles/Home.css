@@ -1,0 +1,139 @@
+.carousel-image {
+    width: 800px; /* Set your desired width */
+    height: 670px; /* Set your desired height */
+    
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in-out; /* Adjust duration and timing function as needed */
+  }
+  .carousel-item-wrapper {
+    position: relative;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%,-50%);
+    color: white; /* Adjust text color */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    max-width: 25%; /* Adjust maximum width as needed */
+    margin: 0 auto; 
+  }
+  .p1{
+    font-size: 16px;
+    padding-top: 80px;
+    /* margin-left: 600px; */
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  }
+  .p2
+  {
+    font-size: 48px;
+    padding-top: 20px;
+    /* margin-left: 600px; */
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .p3
+  {
+    font-size: 21px;
+    padding-top: 20px;
+    /* margin-left: 600px; */
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .button
+  {
+    width: 300px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 700px;
+    letter-spacing: 2px;
+    
+  }
+  .carousel-image1
+  {
+    margin-top: 40px;
+  }
+  .divi{
+    margin-top: 100px;
+    width:100%;
+    margin-top: 40px;
+    height: 950px;
+    background-color: rgb(120, 63, 184);
+    animation-name: example;
+    animation-duration: 10s;
+    
+  }
+  @keyframes example
+  {
+      0% {background-color: red;}
+      25% {background-color: blue;}
+      50% {background-color: rgb(255, 0, 191);}
+      100% {background-color: green}
+
+  }
+  .p4
+  {
+    font-size: 20px;
+    padding-top: 80px;
+    /* margin-left: 600px; */
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  }
+  .p5
+  {
+    font-size: 48px;
+    padding-top: 10px;
+    /* margin-left: 600px; */
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+  }
+  .button1
+  {
+    width: 280px;
+    height: 80px;
+    margin-top: 40px;
+    /* letter-spacing: 2px; */
+    
+  }
+  .carousel-caption1
+  {
+    position: absolute;
+    top: 29%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+    color: black; /* Adjust text color */
+    /* text-align: center; */
+    background-color: #f3Eff6; /* Semi-transparent background */
+    /* padding-top: 40px; */
+    /* max-width: 25%; Adjust maximum width as needed */
+    margin: 0 auto; 
+    width: 800px;
+    height: 350px;
+    
+  }
+  .carousel-item-wrapper1 {
+    position: relative;
+  }
+  
