@@ -1,8 +1,13 @@
 // Server-side code (server.js)
 const express = require("express");
+const mongoose=require('mongoose');
 const { MongoClient } = require("mongodb");
+const bodyParser = require('body-parser');
+
+
 const cors = require("cors");
 const app = express();
+app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
@@ -52,11 +57,35 @@ client.connect()
                 res.json("fail");
             }
         });
-        app.listen(8000, () => {
+       const userSchema=new mongoose.Schema({
+        nameOfEvent:String,
+        destination:String,
+        date:String,
+        selectedHall:String,
+        totalPrice:String,
+        total:String
+       })
+       const Summary=mongoose.model('Summary',userSchema);
+
+       app.post('/summary',async(req,res)=>{
+            const{nameOfEvent,destination,date,selectedHall,totalPrice,total}=req.body;
+            const newuser=new Summary({nameOfEvent,destination,date,selectedHall,totalPrice,total});
+            try
+            {
+              await newuser.save();
+              res.status(201).send('User saved');
+            }
+            catch (error) {
+              res.status(500).send('Error saving user');
+            }
+          });
+     
+        app.listen(3000, () => {
             console.log("port connected");
         });
     })
     .catch(err => {
         console.error("Error connecting to MongoDB:", err);
     });
+   
 

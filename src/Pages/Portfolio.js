@@ -86,7 +86,7 @@ export default function Portfolio() {
           <Button className='b1' style={{ backgroundColor: 'red', color: 'white', height: '50px', width: '60px', fontWeight: 'bold', marginLeft: '600px' }} onClick={() => handleCategoryChange('all')}>ALL</Button>
         </Col>
         <Col>
-          <Button className='b1' style={{ backgroundColor: 'black', color: 'white', height: '50px', width: '120px', fontWeight: 'bold', marginLeft: '-0px' }} onClick={() => handleCategoryChange('wedding')}>WEDDINGS</Button>
+          <Button className='b1' style={{ backgroundColor: 'black', color: 'white', height: '50px', width: '120px', fontWeight: 'bold', marginLeft: '0px' }} onClick={() => handleCategoryChange('wedding')}>WEDDINGS</Button>
         </Col>
         <Col>
           <Button className='b1' style={{ backgroundColor: 'black', color: 'white', height: '50px', width: '120px', fontWeight: 'bold', marginLeft: '-220px' }} onClick={() => handleCategoryChange('corporate')}>CORPORATE</Button>

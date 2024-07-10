@@ -1,7 +1,11 @@
+body{
+    max-width: 100%;
+    
+}
 .box
 {
     height: 700px;
-    width: 700px;
+    width: 600px;
    /* margin-left: 970px; */
     margin-left: 1100px;
     background-color: #23222f;

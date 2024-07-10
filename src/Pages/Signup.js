@@ -30,8 +30,7 @@ function Login() {
 
     return (
         <div className="login-page">
-            {/* Background Video */}
-            {/* Login Form */}
+           
             <div className="login-form">
                 <h2>Signup</h2>
                 <form>
