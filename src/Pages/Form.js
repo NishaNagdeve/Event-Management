@@ -4,7 +4,7 @@ import '../Styles/Form.css';
 import { Col, Row } from 'react-bootstrap';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete'; 
-import Checkbox from '@material-ui/core/Checkbox'; 
+import Checkbox from '@mui/material/Checkbox'; 
 import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank'; 
 import CheckBoxIcon from '@material-ui/icons/CheckBox'; 
 // import { Link } from '@material-ui/core';
